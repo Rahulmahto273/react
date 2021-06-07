@@ -1,0 +1,32 @@
+.header{
+  background-color: #08080a;
+  color: #edecb2;
+  height: 40px;
+}
+.header .left{
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #edecb2;
+  margin-left: 10px;
+}
+.header .left h3{
+  color:#fafafa;
+}
+.header .left span{
+  color: #42e6f5;
+}
+.header .right a{
+  text-decoration: none;
+  background-color: #33bacc;
+  font-weight: 600;
+  font-size: 15px;
+  float: right;
+  //border: 1px solid red;
+  border-radius: 15px;
+  margin-top: -25px;
+  margin-right: 20px;
+  color: white;
+  padding: 5px;
+  box-sizing: border-box;;
+}

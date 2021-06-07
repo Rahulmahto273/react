@@ -1,0 +1,158 @@
+.wrap{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: #12475f;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap::before{
+  content:"";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-color: #1abc9c;
+  left: 0;
+  top: 0;
+}
+.contact{
+  position:relative;
+  width: 70%;
+  height:  75vh;
+  padding: 10px;
+  box-shadow: 2px 2px 14px 0 #05031f;
+  background-color: #defcfb;
+  border-radius: 15px;
+}
+.contact-info{
+  position: absolute;
+  width: 300px;
+  background-color: #12475f;
+  padding: 20px;
+  font-size: 15px;
+  box-sizing: border-box;
+  height: auto;
+  margin-left: -10%;
+  top: 35px;
+  box-shadow: 2px 2px #05031f;
+  border-radius: 10px;
+}
+.contact-info h2{
+   font-size: 20px;
+}
+.contact-info hr{
+  position: relative;
+  margin: 30px 0;
+  height:4px;
+  background-color: #fafafa;
+  border: none;
+}
+.info{
+  width: 100%;
+  display: flex;
+  margin: 20px;
+}
+.info label{
+  font-size: 13px;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #1abc9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.info ul{
+  list-style: none;
+}
+.info a{
+  color: #fafafa;
+  text-decoration: none;
+}
+.info a:hover{
+  text-decoration: underline;
+}
+.social-icons{
+  margin: 25px 0;
+
+}
+.social-icons p{
+  margin-bottom: 20px;
+}
+.social-icons a{
+  position: relative;
+  height: 20px;
+  width:20px;
+  color: #fafafa;
+  font-size: 17px;
+  margin-right: 20px;
+  padding: 5px;
+  border: 1px solid #fafafa;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s;
+}
+.social-icons a:hover{
+  background-color: #1abc9c;
+}
+.contact-form{
+  padding: 40px;
+  position: relative;
+  box-sizing: border-box;
+  float: right;
+  width:650px;
+}
+.contact-form h2{
+  font-size: 30px;
+  color: #12475f;
+  margin: 20px 0;
+}
+.contact-form hr{
+  position: relative;;
+  height: 4px;
+  background-color: #1abc9c;
+  border: none;
+  margin-bottom: 30px;
+}
+.contact-form form{
+  position: relative;
+}
+.contact-form form input[type="text"],textarea{
+  display: block;
+  width: 95%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background:transparent;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-bottom: 3px solid #12475f;
+  outline: none;
+  color: #12475f;
+}
+.contact-form form textarea{
+  height: 100px;
+}
+.contact-form form input[type="submit"]{
+  display: block;
+  border: none;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #1abc9c;
+  color: #12475f;
+  cursor: pointer;
+  transition: all .3s;
+}
+.contact-form form input[type="submit"]:hover{
+  box-shadow: 2px 2px #12475f;
+}

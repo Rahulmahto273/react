@@ -1,0 +1,30 @@
+.main-about{
+  width: 100%;
+  height:100%;
+  display:flex;
+  justify-content: center;
+  background-color: #dae6e2;
+  background-image: url("../../images/background-1.jpg");
+  background-size: contain;
+  align-items: center;
+}
+.wrapper-about{
+  display: flex;
+  color: black;
+  width: 600px;
+  height:300px;
+  border-radius: 5%;
+  padding: 50px;
+  background-color:#e6e9f2;
+  box-shadow: 1px 1px 17px 2px #919ecc;
+}
+.main-about img{
+  width: 200px;
+  height:300px;
+}
+.describe{
+  width: 400px;
+  margin-left: 20px;
+  text-align: justify;
+  margin-top: 90px;
+}
